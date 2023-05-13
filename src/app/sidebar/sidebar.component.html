@@ -1,0 +1,26 @@
+
+<mat-card>
+    <mat-action-list>
+        <div mat-subheader >Categorias disponibles</div>
+        <mat-divider></mat-divider>
+        <button [routerLink]="'/home'" mat-list-item>
+           <mat-icon mat-list-icon>home</mat-icon>Welcome
+        </button>
+        <mat-divider></mat-divider>
+        <button [routerLink]="'/about-me'"  mat-list-item>
+            <mat-icon mat-list-icon>person</mat-icon>Myself
+        </button> 
+        <mat-divider></mat-divider>
+        <button [routerLink]="'/my-project'"  mat-list-item>
+            <mat-icon mat-list-icon>work</mat-icon>Introduction
+        </button> 
+        <mat-divider></mat-divider>
+        <button [routerLink]="'/whatido'"  mat-list-item>
+            <mat-icon mat-list-icon>settings</mat-icon>Project
+        </button> 
+        <mat-divider></mat-divider>
+        <button [routerLink]="'/background'"  mat-list-item>
+            <mat-icon mat-list-icon>work</mat-icon>Background
+        </button> 
+    </mat-action-list>
+</mat-card>
