@@ -1,0 +1,18 @@
+mat-card{
+ 
+    background: white;
+    color: rgb(8, 8, 8);
+    
+    
+  }  
+
+  .mat-divider {
+    border-top-color:#acb2be;;
+  } 
+
+  .container-img{ 
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

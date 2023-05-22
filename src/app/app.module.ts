@@ -20,7 +20,12 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MyprojectComponent } from './myproject/myproject.component';
 import { PanelComponent } from './panel/panel.component';
-
+import { TecnologyComponent } from './tecnology/tecnology.component';
+import { AdminPanelComponent } from './admin-panel/admin-panel.component';
+import { ResumeComponent } from './resume/resume.component';
+import { HobiesComponent } from './hobies/hobies.component';
+import { ManageExamComponent } from './manage-exam/manage-exam.component';
+import { DataModelComponent } from './data-model/data-model.component';
 
 
 @NgModule({
@@ -33,7 +38,13 @@ import { PanelComponent } from './panel/panel.component';
     SidebarComponent,
     NavbarComponent,
     MyprojectComponent,
-    PanelComponent
+    PanelComponent,
+    TecnologyComponent,
+    AdminPanelComponent,
+    ResumeComponent,
+    HobiesComponent,
+    ManageExamComponent,
+    DataModelComponent
   ],
   imports: [
     BrowserModule,

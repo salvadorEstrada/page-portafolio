@@ -1,6 +1,62 @@
 
+<h2>Backend project structure</h2>
+<div class="bootstrap-wrapper">
+    <div class="row">
+        <div class="col-md-12">
+            <mat-divider></mat-divider>
+            <mat-card>
+                <div class="row">
+                    <div class="col-md-6">
+                        <mat-card>
+                            <mat-card-header>
+                                <mat-card-title>Backend technology</mat-card-title>
+                            </mat-card-header>
+                            <mat-divider></mat-divider>
+                            <mat-card-content>
+                              <h3> a) I developed this application adopting Spring boot 2.6, Java 8, for data persistence i used Java Persistence API (JPA).<br>
+                                   b) Spring security and JSON web token (JWT). <br>
+                                   c) Mysq 8.0 version as database.</h3>
+                            </mat-card-content>
 
-<h2>This is an explanation about the project Exam test</h2>
+                            <mat-card-actions>    
+                                <mat-divider></mat-divider>
+                            </mat-card-actions>
+
+                        </mat-card>
+                    </div>  
+
+                    <div class="col-md-6">
+                        <mat-card>
+                            <mat-card-header>
+                                <mat-card-title>Frontend technology</mat-card-title>
+                            </mat-card-header>
+                            <mat-divider></mat-divider>
+                            <mat-card-content>
+                              <h3>I developed this frontend application utilizing Angular Framework version 13 and Angular Material library.</h3>
+                            </mat-card-content>
+
+                            <mat-card-actions>    
+                                <mat-divider></mat-divider>
+                            </mat-card-actions>
+
+                        </mat-card>
+                    </div> 
+
+            </div> 
+            <mat-divider></mat-divider> 
+              <mat-card-actions>  
+                   
+              </mat-card-actions>
+          </mat-card> 
+           
+        </div>
+    </div>
+</div>
+
+
+
+
+<h2>Backend structure project</h2>
 <div class="bootstrap-wrapper">
     <div class="row">
         <div class="col-md-12">
@@ -14,7 +70,7 @@
                             </mat-card-header>
                             <mat-divider></mat-divider>
                             <mat-card-content>
-                              <img src="../assets/../../assets/auth-controller.png" width="300" height="100">
+                              <img src="./assets/auth-controller.png" width="260" height="100">
                             </mat-card-content>
 
                             <mat-card-actions>    
@@ -32,8 +88,9 @@
 
                             <mat-divider></mat-divider>
                             <mat-card-content> 
-                              <h3>If the user that is going to use  the application es Admin don't need to register, otherwise  must be registered
-                                this proces is going to create a token to get the application.
+                              <h3>If the user is Admin don't need to register, otherwise  must be registered
+                                after that ueser wil be able to login, if login is success returns a token.
+                                
                               </h3>
                             
                             </mat-card-content>
@@ -52,7 +109,7 @@
                           </mat-card-header>
                           <mat-divider></mat-divider>
                           <mat-card-content>
-                            <img src="../assets/../../assets/cat-controller.png" width="300" height="100">
+                            <img src="./assets/cat-controller.png" width="260" height="100">
                           </mat-card-content>
 
                           <mat-card-actions>    
@@ -93,7 +150,7 @@
                         </mat-card-header>
                         <mat-divider></mat-divider>
                         <mat-card-content>
-                          <img src="../assets/../../assets/exa-controller.png" width="300" height="100">
+                          <img src="./assets/exa-controller.png" width="260" height="100">
                         </mat-card-content>
 
                         <mat-card-actions>    
@@ -111,8 +168,8 @@
 
                         <mat-divider></mat-divider>
                         <mat-card-content> 
-                          <h3>If the user that is going to use  the application es Admin don't need to register, otherwise  must be registered
-                            this proces is going to create a token to get the application.
+                          <h3>This are some methods about Exam controller. The admin user can execute differet operations
+                            such as Post, Put, Delete and son on.
                           </h3>
                         
                         </mat-card-content>
@@ -131,7 +188,7 @@
                       </mat-card-header>
                       <mat-divider></mat-divider>
                       <mat-card-content>
-                        <img src="../assets/../../assets/question.png" width="300" height="100">
+                        <img src="./assets/question.png" width="260" height="100">
                       </mat-card-content>
 
                       <mat-card-actions>    
@@ -149,9 +206,8 @@
 
                       <mat-divider></mat-divider>
                       <mat-card-content> 
-                        <h3>These are some examples of uri's about Question Controller, by invoking this methods 
-                        will get the information related with Questios. Keep in mind that This
-                        information is managed by administrator User.  
+                        <h3>This is information about Question Controller, by invoking this methods 
+                        will get the information regarding questions. 
                         </h3>
                       
                       </mat-card-content>
@@ -164,10 +220,11 @@
 
             </div> 
             <mat-divider></mat-divider> 
-              <mat-card-actions> 
-                <a mat-raised-button [routerLink]="'/panel'" color="primary">Go user panel</a>
-                <a mat-raised-button [routerLink]="'/panel'" color="primary">Go user administrator panel</a>
-                  
+              <mat-card-actions>  
+                
+                &nbsp;<a mat-flat-button routerLink="/admin-panel">Go to frontend </a> 
+                &nbsp;<a mat-flat-button routerLink="/model">Go to data base model</a>
+                
               </mat-card-actions>
           </mat-card> 
            

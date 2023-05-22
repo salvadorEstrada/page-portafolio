@@ -1,11 +1,11 @@
 mat-card{
  
-    background: #FCFDFE;
-    color: rgb(8, 8, 8);
-    
-    
-  }  
+  background: white;
+  color: rgb(8, 8, 8);
   
-  .mat-divider {
-    border-top-color:#acb2be;;
-  }
+  
+}  
+
+.mat-divider {
+  border-top-color:#acb2be;;
+}

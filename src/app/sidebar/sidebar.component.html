@@ -1,18 +1,18 @@
 
 <mat-card>
     <mat-action-list>
-        <div mat-subheader >Categorias disponibles</div>
+        <div mat-subheader >Menu</div>
         <mat-divider></mat-divider>
         <button [routerLink]="'/home'" mat-list-item>
            <mat-icon mat-list-icon>home</mat-icon>Welcome
         </button>
         <mat-divider></mat-divider>
         <button [routerLink]="'/about-me'"  mat-list-item>
-            <mat-icon mat-list-icon>person</mat-icon>Myself
+            <mat-icon mat-list-icon>person</mat-icon>About me
         </button> 
         <mat-divider></mat-divider>
         <button [routerLink]="'/my-project'"  mat-list-item>
-            <mat-icon mat-list-icon>work</mat-icon>Introduction
+            <mat-icon mat-list-icon>wb_incandescent</mat-icon>Introduction
         </button> 
         <mat-divider></mat-divider>
         <button [routerLink]="'/whatido'"  mat-list-item>
@@ -21,6 +21,21 @@
         <mat-divider></mat-divider>
         <button [routerLink]="'/background'"  mat-list-item>
             <mat-icon mat-list-icon>work</mat-icon>Background
+        </button>  
+
+        <mat-divider></mat-divider>
+        <button [routerLink]="'/tecnology'"  mat-list-item>
+            <mat-icon mat-list-icon>important_devices</mat-icon>Technology
+        </button>  
+
+        <mat-divider></mat-divider>
+        <button [routerLink]="'/resume'"  mat-list-item>
+            <mat-icon mat-list-icon>description</mat-icon>My resume
+        </button>  
+
+        <mat-divider></mat-divider>
+        <button [routerLink]="'/hobbies'"  mat-list-item>
+            <mat-icon mat-list-icon>category</mat-icon>Hobbies
         </button> 
     </mat-action-list>
 </mat-card>
