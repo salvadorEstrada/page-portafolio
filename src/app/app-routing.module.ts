@@ -21,7 +21,7 @@ const routes: Routes = [
     component:HomeComponent
     
   },  
-
+  
 
   {
     path:'about-me',
@@ -77,7 +77,12 @@ const routes: Routes = [
     path:'model',
     component:DataModelComponent
   },
-
+  
+  {
+    path:'**',
+    pathMatch: 'full',
+    redirectTo: 'home'
+  },
 
 
 ];
